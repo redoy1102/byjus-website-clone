@@ -9,7 +9,116 @@ body{
     font-family:sans-serif;
     margin-top: 20px;
 }
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.reviewBottomButton{
+    margin-left: 40%;
+    margin-top: 50px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #9752ff, #5e93ff);
+    font-family: Roboto;
+    font-weight: 700;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    color: white;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    min-width: 170px;
+}
 
+/* byjus details start */
+.footer{
+    background-color: #813588;
+}
+#facebook{
+    margin-right: 40px;
+}
+.byjus-details{
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: #fff;
+    padding-top: 90px;
+    margin-top: 80px;
+    font-size: 13px;
+}
+..byjus-details hr{
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.byjus-details h5{
+    color: #ffc846;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* byjus details end */
+
+/* slider style start */
+.carousel-p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    margin: 0 0 10px;
+}
+.slider-img{
+    display: flex;
+    max-width: 136px;
+    height: 136px;
+    vertical-align: middle;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.carousel-h1{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: #333;
+    margin-top: 10px;
+}
+/* slider style end */
 /* user review start */
 #user{
     text-align: center;
@@ -19,6 +128,7 @@ body{
 .user-review{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 /* user review end */
 
