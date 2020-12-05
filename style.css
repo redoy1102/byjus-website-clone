@@ -4,15 +4,150 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(images/first_background.svg);
     background-size: cover;
     background-position: center;
     font-family:sans-serif;
     margin-top: 20px;
 }
 
+/* user review start */
+#user{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.user-review{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* user review end */
+
+/* Get the BYJU'S advantage start */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#BYJUS-ADVANTAGE{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 33px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+    opacity: 1;
+    transform: translateZ(0);
+}
+/* Get the BYJU'S advantage end */
+
+/* comprehensive style start */
+
+.comprehensive{
+    text-align: center;
+    margin-top: 100px;
+}
+.comprehensivePara{
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+/* comprehensive style end */
+
+/* comprehensive card part start */
+
+.comprehensive-card-part{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Personalised{
+    margin-top: 30px;
+}
+
+.know-more{
+    display: block;
+    color: #454545;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    min-height: 1.625rem;
+}
+.class-4-12{
+    border-radius: 0 0 10px 10px;
+    padding: 12px 20px;
+    background-image: linear-gradient(to right, #8c3fff, #5c72ff);
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 700;
+}
+.byjus-classes{
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.14);
+}
+.byjus-classes-btn{
+    color: inherit;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    border-radius: 30px;
+    padding: 10px 25px;
+    min-width: 170px;
+    background-image: linear-gradient(to right, #8c3fff, #5c72ff);
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    font-weight: normal;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+
+
+/* comprehensive card part end */
+
+/* navbar style start */
+
 .menu-bar{
     text-align: center;
+    background-image: url(images/first_background.svg)
 }
 .menu-bar .fa{
     margin-left: 8px;
@@ -155,5 +290,6 @@ body{
     padding-bottom: 5px;
     padding-left: 0px;
     margin-left: -50px;
-    
 }
+
+/* navbar style end */
